@@ -1,0 +1,73 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Black Tech Week 2026 sponsor-facing impact report dashboard">
+  <title>Black Tech Week 2026 | Impact Report</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Mono:wght@400;500&family=Manrope:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="/styles.css">
+</head>
+<body>
+  <div class="grain" aria-hidden="true"></div>
+  <header class="hero">
+    <nav class="nav wrap"><span class="mark">BTW<span>26</span></span><span class="eyebrow">Impact report / Sponsor edition</span><span class="date">09.04.26</span></nav>
+    <div class="hero-grid wrap">
+      <div class="hero-copy">
+        <p class="kicker">Black Tech Week 2026</p>
+        <h1>A room full of<br><em>possibility.</em></h1>
+        <p class="lede">A sponsor-ready view of the people, places, and economic energy moving through Black Tech Week.</p>
+        <a class="scroll" href="#reach"><span>↓</span> Explore the impact</a>
+      </div>
+      <div class="hero-kpi">
+        <p class="eyebrow">Total footprint</p>
+        <strong id="footprint">—</strong>
+        <span>people reached across the BTW ecosystem</span>
+        <div class="orb orb-one"></div><div class="orb orb-two"></div>
+      </div>
+    </div>
+    <div class="hero-strip wrap"><span><b id="heroStates">—</b> states represented</span><span><b id="heroOrgs">—</b> organizations in the room</span><span><b id="heroImpact">—</b> modeled local impact</span></div>
+  </header>
+
+  <main>
+    <section class="section wrap" id="reach">
+      <div class="section-intro"><p class="kicker">01 / Reach</p><h2>National energy,<br><em>regional roots.</em></h2><p>Black Tech Week brought a high-density audience of founders, executives, and community builders into Cincinnati—and carried that energy well beyond the venue.</p></div>
+      <div class="metric-grid" id="reachMetrics"></div>
+    </section>
+
+    <section class="section dark-section">
+      <div class="wrap split-section">
+        <div class="section-intro light"><p class="kicker">02 / Footprint</p><h2>Cincinnati anchored<br>the <em>room.</em></h2><p>Regional markets expanded the reach, creating a platform with both local gravity and national pull.</p><div class="anchor-callout"><span class="pin">✦</span><div><strong id="localVisitors">—</strong><small>Cincinnati / local anchor</small></div></div></div>
+        <div class="chart-panel"><div class="panel-heading"><span>Audience geography</span><small>Visitors by reach pattern</small></div><div id="geoBars"></div><div class="chart-foot"><span><i class="dot coral"></i>Local + regional</span><span><i class="dot mint"></i>Overnight + out of state</span></div></div>
+      </div>
+    </section>
+
+    <section class="section wrap">
+      <div class="section-intro"><p class="kicker">03 / People & programming</p><h2>The audience<br><em>sponsors want.</em></h2><p>Founder density, executive access, and programming designed for meaningful connection.</p></div>
+      <div class="people-layout"><div class="big-stat"><strong id="founders">—</strong><span>founders</span><p>A high-density audience built for capital, talent, and partnership conversations.</p></div><div class="people-cards" id="peopleMetrics"></div></div>
+      <div class="regional-row"><div><p class="panel-label">Top regional markets</p><h3>Beyond Cincinnati</h3><p class="muted">The home city set the stage; nearby markets widened the circle.</p></div><div class="market-list" id="markets"></div></div>
+    </section>
+
+    <section class="section economic-section">
+      <div class="wrap">
+        <div class="section-intro"><p class="kicker">04 / Economic impact</p><h2>Investment that<br><em>moves a region.</em></h2><p>Modeled estimates show the value created when people gather, stay, spend, and connect.</p></div>
+        <div class="impact-grid" id="impactMetrics"></div>
+        <p class="caveat">Economic impact figures are modeled estimates based on stated assumptions and are not audited results.</p>
+      </div>
+    </section>
+
+    <section class="section wrap media-section">
+      <div class="section-intro"><p class="kicker">05 / Beyond the venue</p><h2>Digital programming<br><em>kept traveling.</em></h2><p>Livestream content extended the conversation beyond the room and into a wider audience.</p></div>
+      <div class="media-grid"><div class="media-main" id="virtualMetrics"></div><div class="stream-card"><div class="panel-heading"><span>Livestream audience</span><small>Unique viewers by stream</small></div><div id="streamBars"></div></div></div>
+    </section>
+
+    <section class="section inclusion-section"><div class="wrap inclusion-grid"><div class="section-intro light"><p class="kicker">06 / Inclusion</p><h2>Access is part<br>of the <em>impact.</em></h2><p>Black Tech Week’s audience reflects the founders, operators, and communities shaping what comes next.</p></div><div class="inclusion-card"><div class="inclusion-number"><strong id="distressed">—</strong><span>of registrations from distressed ZIP-code areas</span></div><div class="inclusion-line"><span>Black or African American disclosed responses</span><strong id="raceCount">—</strong></div><div class="inclusion-line"><span>Woman disclosed responses</span><strong id="genderCount">—</strong></div></div></div></section>
+  </main>
+
+  <footer class="footer wrap"><span class="mark">BTW<span>26</span></span><p>Figures are aggregate dashboard metrics and modeled estimates where labeled. No personal identifiers or row-level records are included.</p><span class="footer-date">Black Tech Week<br>Impact report</span></footer>
+  <script type="module" src="/app.js"></script>
+</body>
+</html>
+

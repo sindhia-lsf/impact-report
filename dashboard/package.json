@@ -1,0 +1,16 @@
+{
+  "name": "black-tech-week-impact-dashboard",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Editable, aggregate-only Black Tech Week 2026 impact report dashboard.",
+  "type": "module",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "node --watch server.js",
+    "test": "node --test"
+  },
+  "engines": {
+    "node": ">=18"
+  }
+}
+

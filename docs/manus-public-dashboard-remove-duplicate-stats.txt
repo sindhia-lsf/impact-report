@@ -1,0 +1,37 @@
+Please revise the existing Black Tech Week 2026 public dashboard website again.
+
+Task: evfskDSouyAWq4KnfnV8rX
+Website: kQ75EaDuphQeYzBqrL3BH7
+Current public URL: https://blackdash-kq75eadu.manus.space
+
+Puneeth reviewed the mobile page and noticed the first two page sections repeat the same stats. The hero shows Total Footprint plus KPI tiles, then the next section repeats Total Footprint and similar KPI tiles again. This feels redundant for sponsor outreach.
+
+Change request:
+
+1. Remove the repeated stats from the second section.
+   - Do not show Total Footprint again immediately after the hero.
+   - Do not repeat Active Registrations, In-Person Attendees, Community Reach, Meetup Attendees, Virtual Viewers, or States Represented in another first-scroll KPI grid.
+   - The first two sections should feel like progression, not repetition.
+
+2. Let the hero own the high-level numbers.
+   - Hero should keep one strong Total Footprint callout.
+   - Hero can keep a compact set of supporting KPI tiles if they fit cleanly.
+   - The hero copy should remain short and sponsor-facing.
+
+3. Replace the second section with a new angle.
+   - Good options: "Why Sponsors Care", "Founder + Business Density", "Economic Signal", or "National Founder Energy".
+   - Use different evidence than the hero: founders, executives, organizations, modeled economic impact, session engagement, or sponsor value.
+   - Keep captions direct and impact-oriented.
+
+4. Maintain the simplified sponsor style.
+   - No paid/unpaid details.
+   - No calculation explanations.
+   - No row-level or personal data.
+   - No long methodology blocks in the main flow.
+   - Keep only a small aggregate/modeled caveat near the footer if needed.
+
+5. Mobile polish:
+   - Make sure the opening title/hero is not awkwardly clipped at the top of a phone viewport.
+   - Make the first two sections scan smoothly on mobile without feeling like the same dashboard cards repeated.
+
+After revising, checkpoint the website and tell me the new checkpoint/version id. Do not publish; I will publish through the Manus API.

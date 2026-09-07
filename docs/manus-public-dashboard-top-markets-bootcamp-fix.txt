@@ -1,0 +1,39 @@
+Please revise the existing Black Tech Week 2026 public dashboard website again.
+
+Task: evfskDSouyAWq4KnfnV8rX
+Website: kQ75EaDuphQeYzBqrL3BH7
+Current public URL: https://blackdash-kq75eadu.manus.space
+
+Keep using aggregate-only data. Do not add personal identifiers, row-level records, names, phone numbers, emails, or individual stories.
+
+Requested fixes:
+
+1. Clarify the "Top Markets" section.
+   - Cincinnati is not listed because the source list excludes Local/Cincinnati ZIPs and shows non-local/regional markets.
+   - Do not make it look like Cincinnati was accidentally missed.
+   - Rename the section from "Top Markets" to something clearer, such as:
+     - "Top Regional Markets"
+     - "Markets Beyond Cincinnati"
+     - "Regional Reach Beyond Cincinnati"
+   - Add a simple Cincinnati anchor callout using the local visitor count:
+     - Cincinnati/local anchor: 3,776 local visitors
+   - Keep copy short and sponsor-facing.
+   - Good caption: "Cincinnati anchored the room; regional markets expanded the reach."
+   - Do not explain the SQL/filtering logic in the main UI.
+
+2. Remove the detailed Bootcamp page/section.
+   - Bootcamps are not part of Black Tech Week for this sponsor-facing dashboard.
+   - Remove the Bootcamp Pipeline section entirely, including the city table and Bootcamp interest/applications/attendees stats.
+   - Do not use Bootcamp metrics as Black Tech Week impact.
+   - If there is a small ecosystem note mentioning year-round Lightship work, remove it unless it clearly stays outside the BTW impact totals.
+
+3. Keep all previous corrections.
+   - Total Footprint remains 7,953.
+   - In-Person Attendees remains 5,249.
+   - Speaker Sessions remains 21.
+   - No paid/unpaid detail.
+   - No calculation-heavy text.
+   - No repeated first-scroll KPI block.
+   - Captions should explain impact, not methodology.
+
+After revising, checkpoint the website and tell me the new checkpoint/version id. Do not publish; I will publish through the Manus API.

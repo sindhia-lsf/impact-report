@@ -1,0 +1,1569 @@
+{
+  "generatedAt": "2026-09-04",
+  "sources": [
+    "Lightship local dashboard aggregate APIs",
+    "Postgres aggregate tables",
+    "Command Center YouTube performance snapshot in frontend JS"
+  ],
+  "reach": {
+    "btwActiveRegistrations": 8117,
+    "btwInPersonRegistrations": 6066,
+    "btwVirtualRegistrations": 2051,
+    "btwActualInPersonBadgePrinted": 2767,
+    "communityPartnerEventAttendees": 1705,
+    "meetupRsvps": 1174,
+    "meetupActualAttended": 777,
+    "meetupLocations": 14,
+    "meetupPageViews": 7077,
+    "youtubeViews": 6708,
+    "youtubeUniqueViewers": 2704,
+    "youtubeWatchHours": 2509.1,
+    "youtubeSubscribersGained": 211,
+    "estimatedGrossFootprint": 7953,
+    "registrationAndDigitalDemandSignals": 11995
+  },
+  "geography": {
+    "statesRepresented": 35,
+    "zipCodesRepresented": 726,
+    "mappedVisitors": 5891,
+    "localVisitors": 3776,
+    "regionalVisitors": 1615,
+    "overnightVisitors": 500,
+    "outOfStateVisitors": 849,
+    "hundredMileTravelers": 926,
+    "topMarkets": [
+      {
+        "label": "Dayton, OH",
+        "attendees": 215
+      },
+      {
+        "label": "Columbus, OH",
+        "attendees": 189
+      },
+      {
+        "label": "Hamilton, OH",
+        "attendees": 136
+      },
+      {
+        "label": "West Chester, OH",
+        "attendees": 113
+      },
+      {
+        "label": "Fairfield, OH",
+        "attendees": 100
+      },
+      {
+        "label": "Louisville, KY",
+        "attendees": 89
+      }
+    ],
+    "topStates": [
+      {
+        "label": "OH",
+        "count": 5656,
+        "paid": 232,
+        "unpaid": 5424
+      },
+      {
+        "label": "KY",
+        "count": 324,
+        "paid": 21,
+        "unpaid": 303
+      },
+      {
+        "label": "GA",
+        "count": 225,
+        "paid": 6,
+        "unpaid": 219
+      },
+      {
+        "label": "TX",
+        "count": 187,
+        "paid": 5,
+        "unpaid": 182
+      },
+      {
+        "label": "MI",
+        "count": 161,
+        "paid": 6,
+        "unpaid": 155
+      },
+      {
+        "label": "IL",
+        "count": 158,
+        "paid": 9,
+        "unpaid": 149
+      },
+      {
+        "label": "NY",
+        "count": 136,
+        "paid": 8,
+        "unpaid": 128
+      },
+      {
+        "label": "FL",
+        "count": 128,
+        "paid": 2,
+        "unpaid": 126
+      }
+    ],
+    "topCountries": [
+      {
+        "label": "United States",
+        "count": 4830,
+        "paid": 240,
+        "unpaid": 4590
+      },
+      {
+        "label": "US",
+        "count": 966,
+        "paid": 19,
+        "unpaid": 947
+      },
+      {
+        "label": "USA",
+        "count": 907,
+        "paid": 40,
+        "unpaid": 867
+      },
+      {
+        "label": "Unknown",
+        "count": 654,
+        "paid": 17,
+        "unpaid": 637
+      },
+      {
+        "label": "United States of America",
+        "count": 156,
+        "paid": 10,
+        "unpaid": 146
+      },
+      {
+        "label": "Hamilton",
+        "count": 116,
+        "paid": 5,
+        "unpaid": 111
+      },
+      {
+        "label": "Usa",
+        "count": 110,
+        "paid": 0,
+        "unpaid": 110
+      },
+      {
+        "label": "United states",
+        "count": 108,
+        "paid": 0,
+        "unpaid": 108
+      }
+    ],
+    "meetupZipPoints": 166,
+    "meetupMappedRsvps": 1172
+  },
+  "foundersAndBusiness": {
+    "highValueAudienceTotal": 3223,
+    "founders": 2407,
+    "executives": 816,
+    "uniqueOrganizations": 5273,
+    "verifiedHighValuePct": 53.13,
+    "sessionUniqueAttendees": 1537,
+    "sessionScans": 3419,
+    "avgSessionsPerEngagedAttendee": 2.2,
+    "twoPlusSessionPct": 56.2,
+    "speakerCount": 52,
+    "sessions": 124,
+    "bootcampInterest": 364,
+    "bootcampApplications": 233,
+    "bootcampAttendees": 46,
+    "bootcampCities": 8
+  },
+  "equityAndInclusion": {
+    "distressedZipcodeRegistrations": 1513,
+    "distressedZipcodeRegistrationsPct": 18.51,
+    "bootcampDistressedInterest": 103,
+    "bootcampDistressedInterestPct": 28.3,
+    "bootcampDistressedApplications": 27,
+    "bootcampDistressedApplicationsPct": 11.59,
+    "bootcampDistressedAttendees": 13,
+    "bootcampDistressedAttendeesPct": 28.26,
+    "raceEthnicity": [
+      {
+        "label": "Black or African American",
+        "count": 5937,
+        "paid": 281,
+        "unpaid": 5656
+      },
+      {
+        "label": "Unknown",
+        "count": 1711,
+        "paid": 42,
+        "unpaid": 1669
+      },
+      {
+        "label": "Multiracial or Biracial",
+        "count": 195,
+        "paid": 5,
+        "unpaid": 190
+      },
+      {
+        "label": "Prefer not to say",
+        "count": 115,
+        "paid": 4,
+        "unpaid": 111
+      },
+      {
+        "label": "White",
+        "count": 115,
+        "paid": 7,
+        "unpaid": 108
+      },
+      {
+        "label": "Hispanic or Latino/a/x",
+        "count": 41,
+        "paid": 0,
+        "unpaid": 41
+      },
+      {
+        "label": "Asian",
+        "count": 35,
+        "paid": 4,
+        "unpaid": 31
+      },
+      {
+        "label": "American Indian or Alaska Native",
+        "count": 17,
+        "paid": 0,
+        "unpaid": 17
+      },
+      {
+        "label": "Middle Eastern or North African",
+        "count": 6,
+        "paid": 0,
+        "unpaid": 6
+      },
+      {
+        "label": "Native Hawaiian or Other Pacific Islander",
+        "count": 3,
+        "paid": 0,
+        "unpaid": 3
+      }
+    ],
+    "gender": [
+      {
+        "label": "Woman",
+        "count": 4191,
+        "paid": 169,
+        "unpaid": 4022
+      },
+      {
+        "label": "Unknown",
+        "count": 1983,
+        "paid": 43,
+        "unpaid": 1940
+      },
+      {
+        "label": "Man",
+        "count": 1875,
+        "paid": 123,
+        "unpaid": 1752
+      },
+      {
+        "label": "Prefer not to say",
+        "count": 87,
+        "paid": 8,
+        "unpaid": 79
+      },
+      {
+        "label": "Non-binary",
+        "count": 28,
+        "paid": 0,
+        "unpaid": 28
+      },
+      {
+        "label": "Genderqueer / Gender non-conforming",
+        "count": 7,
+        "paid": 0,
+        "unpaid": 7
+      },
+      {
+        "label": "Transgender",
+        "count": 5,
+        "paid": 0,
+        "unpaid": 5
+      }
+    ]
+  },
+  "economicImpact": {
+    "assumptions": {
+      "event_dates": "July 14-16, 2026",
+      "locality_method": "Local = Cincinnati, OH ZIPs only; nearby OH/KY/IN visitors = regional drive-in",
+      "event_days": 3.0,
+      "average_nights": 4.0,
+      "attendees_per_room": 1.1,
+      "average_daily_room_rate": 250.0,
+      "lodging_tax_rate": 0.115,
+      "meals_incidentals_per_day": 200.0,
+      "nightlife_per_day": 150.0,
+      "local_transport_per_day": 50.0,
+      "parking_per_day": 25.0,
+      "regional_gas_roundtrip_per_day": 50.0,
+      "airport_ride_one_way": 40.0,
+      "flight_roundtrip_cost": 500.0,
+      "other_retail_spend": 200.0,
+      "local_hotel_share": 0.1,
+      "regional_hotel_share": 0.25,
+      "indirect_induced_multiplier": 0.6,
+      "state_local_tax_benchmark_rate": 0.12,
+      "organizer_local_spending": 2195000.0,
+      "labor_cost": 400000.0,
+      "public_investment": 1982000.0,
+      "volunteers": 120.0,
+      "temporary_jobs_created": 120.0,
+      "local_spend_per_attendee": 1415.909090909091,
+      "regional_spend_per_attendee": 1702.2727272727273,
+      "overnight_spend_per_attendee": 2889.090909090909
+    },
+    "actualAttendance": {
+      "totalBadgePrinted": 2767,
+      "offlineBadgePrinted": 2767,
+      "virtualBadgePrinted": 0,
+      "mappedOfflineBadgePrinted": 2767,
+      "unmappedOfflineBadgePrinted": 0,
+      "missingZipModeledOvernight": 111
+    },
+    "scenarios": [
+      {
+        "scenario_key": "registered_offline",
+        "label": "Registered onsite mix",
+        "attendees": 6024,
+        "visitor_spending": 9924437.73,
+        "organizer_local_spending": 2195000,
+        "labor_cost": 400000,
+        "direct_impact": 12519437.73,
+        "indirect_induced_impact": 7511662.64,
+        "total_impact": 20031100.36,
+        "impact_per_attendee": 3325.22,
+        "public_investment_roi": 10.11,
+        "room_nights": 5143.09,
+        "lodging_revenue": 1285772.73,
+        "lodging_tax": 147863.86,
+        "benchmark_state_local_tax": 1190932.53,
+        "category_breakdown": [
+          {
+            "label": "Accommodations",
+            "amount": 1285772.73
+          },
+          {
+            "label": "Food + nightlife",
+            "amount": 6325200
+          },
+          {
+            "label": "Travel + parking",
+            "amount": 1108665
+          },
+          {
+            "label": "Retail",
+            "amount": 1204800
+          },
+          {
+            "label": "Organizer spend",
+            "amount": 2195000
+          },
+          {
+            "label": "Labor spend",
+            "amount": 400000
+          },
+          {
+            "label": "Indirect + induced",
+            "amount": 7511662.64
+          }
+        ],
+        "mix": [
+          {
+            "visitorType": "Local",
+            "attendees": 3776,
+            "spendPerAttendee": 1415.909090909091,
+            "visitorSpending": 5346472.73,
+            "categoryBreakdown": [
+              {
+                "label": "Accommodations",
+                "amount": 343272.73
+              },
+              {
+                "label": "Food + nightlife",
+                "amount": 3964800
+              },
+              {
+                "label": "Travel + parking",
+                "amount": 283200
+              },
+              {
+                "label": "Retail",
+                "amount": 755200
+              }
+            ]
+          },
+          {
+            "visitorType": "Regional drive-in",
+            "attendees": 1615,
+            "spendPerAttendee": 1702.2727272727273,
+            "visitorSpending": 2749170.45,
+            "categoryBreakdown": [
+              {
+                "label": "Accommodations",
+                "amount": 367045.45
+              },
+              {
+                "label": "Food + nightlife",
+                "amount": 1695750
+              },
+              {
+                "label": "Travel + parking",
+                "amount": 363375
+              },
+              {
+                "label": "Retail",
+                "amount": 323000
+              }
+            ]
+          },
+          {
+            "visitorType": "Overnight visitor",
+            "attendees": 633,
+            "spendPerAttendee": 2889.090909090909,
+            "visitorSpending": 1828794.55,
+            "categoryBreakdown": [
+              {
+                "label": "Accommodations",
+                "amount": 575454.55
+              },
+              {
+                "label": "Food + nightlife",
+                "amount": 664650
+              },
+              {
+                "label": "Travel + parking",
+                "amount": 462090
+              },
+              {
+                "label": "Retail",
+                "amount": 126600
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "scenario_key": "actual_badged",
+        "label": "Actual Attendee onsite mix",
+        "attendees": 2767,
+        "visitor_spending": 4581461.82,
+        "organizer_local_spending": 2195000,
+        "labor_cost": 400000,
+        "direct_impact": 7176461.82,
+        "indirect_induced_impact": 4305877.09,
+        "total_impact": 11482338.91,
+        "impact_per_attendee": 4149.74,
+        "public_investment_roi": 5.79,
+        "room_nights": 2410.73,
+        "lodging_revenue": 602681.82,
+        "lodging_tax": 69308.41,
+        "benchmark_state_local_tax": 549775.42,
+        "category_breakdown": [
+          {
+            "label": "Accommodations",
+            "amount": 602681.82
+          },
+          {
+            "label": "Food + nightlife",
+            "amount": 2905350
+          },
+          {
+            "label": "Travel + parking",
+            "amount": 520030
+          },
+          {
+            "label": "Retail",
+            "amount": 553400
+          },
+          {
+            "label": "Organizer spend",
+            "amount": 2195000
+          },
+          {
+            "label": "Labor spend",
+            "amount": 400000
+          },
+          {
+            "label": "Indirect + induced",
+            "amount": 4305877.09
+          }
+        ],
+        "mix": [
+          {
+            "visitorType": "Local",
+            "attendees": 1697,
+            "spendPerAttendee": 1415.909090909091,
+            "visitorSpending": 2402797.73,
+            "categoryBreakdown": [
+              {
+                "label": "Accommodations",
+                "amount": 154272.73
+              },
+              {
+                "label": "Food + nightlife",
+                "amount": 1781850
+              },
+              {
+                "label": "Travel + parking",
+                "amount": 127275
+              },
+              {
+                "label": "Retail",
+                "amount": 339400
+              }
+            ]
+          },
+          {
+            "visitorType": "Regional drive-in",
+            "attendees": 769,
+            "spendPerAttendee": 1702.2727272727273,
+            "visitorSpending": 1309047.73,
+            "categoryBreakdown": [
+              {
+                "label": "Accommodations",
+                "amount": 174772.73
+              },
+              {
+                "label": "Food + nightlife",
+                "amount": 807450
+              },
+              {
+                "label": "Travel + parking",
+                "amount": 173025
+              },
+              {
+                "label": "Retail",
+                "amount": 153800
+              }
+            ]
+          },
+          {
+            "visitorType": "Overnight visitor",
+            "attendees": 301,
+            "spendPerAttendee": 2889.090909090909,
+            "visitorSpending": 869616.36,
+            "categoryBreakdown": [
+              {
+                "label": "Accommodations",
+                "amount": 273636.36
+              },
+              {
+                "label": "Food + nightlife",
+                "amount": 316050
+              },
+              {
+                "label": "Travel + parking",
+                "amount": 219730
+              },
+              {
+                "label": "Retail",
+                "amount": 60200
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "communityPartnerNightlifeSpend": 255750,
+    "communityPartnerEconomicImpactWithMultiplier": 409200.0,
+    "meetupSpend": 1419.73
+  },
+  "virtualPerformance": {
+    "totals": {
+      "views": 6708,
+      "uniqueViewers": 2704,
+      "watchHours": 2509.1,
+      "averageViewDuration": "22:25",
+      "subscribersGained": 211,
+      "impressions": 38617,
+      "impressionsCtr": 5.1
+    },
+    "streams": [
+      {
+        "title": "BTW Day 1 Livestream",
+        "uniqueViewers": 935
+      },
+      {
+        "title": "BTW Day 2 Livestream",
+        "uniqueViewers": 715
+      },
+      {
+        "title": "BTW Day 3 Livestream",
+        "uniqueViewers": 788
+      },
+      {
+        "title": "BTW Live Stream Event Promos",
+        "uniqueViewers": 266
+      }
+    ]
+  },
+  "selectedCharts": {
+    "weekly": [
+      {
+        "week": "2026-04-27",
+        "registrations": 27,
+        "cumulative": 96,
+        "last_year_week": "2025-04-27",
+        "last_year_cumulative": 339
+      },
+      {
+        "week": "2026-05-04",
+        "registrations": 8,
+        "cumulative": 104,
+        "last_year_week": "2025-05-04",
+        "last_year_cumulative": 364
+      },
+      {
+        "week": "2026-05-11",
+        "registrations": 19,
+        "cumulative": 123,
+        "last_year_week": "2025-05-11",
+        "last_year_cumulative": 548
+      },
+      {
+        "week": "2026-05-18",
+        "registrations": 22,
+        "cumulative": 145,
+        "last_year_week": "2025-05-18",
+        "last_year_cumulative": 657
+      },
+      {
+        "week": "2026-05-25",
+        "registrations": 46,
+        "cumulative": 191,
+        "last_year_week": "2025-05-25",
+        "last_year_cumulative": 712
+      },
+      {
+        "week": "2026-06-01",
+        "registrations": 2131,
+        "cumulative": 2322,
+        "last_year_week": "2025-06-01",
+        "last_year_cumulative": 2282
+      },
+      {
+        "week": "2026-06-08",
+        "registrations": 384,
+        "cumulative": 2706,
+        "last_year_week": "2025-06-08",
+        "last_year_cumulative": 2703
+      },
+      {
+        "week": "2026-06-15",
+        "registrations": 247,
+        "cumulative": 2953,
+        "last_year_week": "2025-06-15",
+        "last_year_cumulative": 2909
+      },
+      {
+        "week": "2026-06-22",
+        "registrations": 745,
+        "cumulative": 3698,
+        "last_year_week": "2025-06-22",
+        "last_year_cumulative": 5179
+      },
+      {
+        "week": "2026-06-29",
+        "registrations": 1216,
+        "cumulative": 4914,
+        "last_year_week": "2025-06-29",
+        "last_year_cumulative": 5790
+      },
+      {
+        "week": "2026-07-06",
+        "registrations": 2384,
+        "cumulative": 7298,
+        "last_year_week": "2025-07-06",
+        "last_year_cumulative": 6966
+      },
+      {
+        "week": "2026-07-13",
+        "registrations": 819,
+        "cumulative": 8117,
+        "last_year_week": "2025-07-13",
+        "last_year_cumulative": 7293
+      }
+    ],
+    "registrationTypes": [
+      {
+        "label": "General Admission",
+        "count": 4360,
+        "paid": 101,
+        "unpaid": 4259
+      },
+      {
+        "label": "General Admission Virtual",
+        "count": 2149,
+        "paid": 4,
+        "unpaid": 2145
+      },
+      {
+        "label": "General Admission Founder",
+        "count": 1058,
+        "paid": 103,
+        "unpaid": 955
+      },
+      {
+        "label": "General Admission Student",
+        "count": 563,
+        "paid": 65,
+        "unpaid": 498
+      },
+      {
+        "label": "Early-Bird Founder",
+        "count": 44,
+        "paid": 29,
+        "unpaid": 15
+      },
+      {
+        "label": "Early-Bird Student",
+        "count": 33,
+        "paid": 27,
+        "unpaid": 6
+      },
+      {
+        "label": "Early-Bird General Admission",
+        "count": 26,
+        "paid": 22,
+        "unpaid": 4
+      }
+    ],
+    "titleLevels": [
+      {
+        "label": "Founder",
+        "count": 2407,
+        "paid": 127,
+        "unpaid": 2280
+      },
+      {
+        "label": "Entry Level",
+        "count": 2140,
+        "paid": 46,
+        "unpaid": 2094
+      },
+      {
+        "label": "Manager",
+        "count": 1353,
+        "paid": 57,
+        "unpaid": 1296
+      },
+      {
+        "label": "Student",
+        "count": 1265,
+        "paid": 59,
+        "unpaid": 1206
+      },
+      {
+        "label": "Director Level",
+        "count": 463,
+        "paid": 30,
+        "unpaid": 433
+      },
+      {
+        "label": "C-Suite",
+        "count": 215,
+        "paid": 13,
+        "unpaid": 202
+      },
+      {
+        "label": "Unknown",
+        "count": 195,
+        "paid": 1,
+        "unpaid": 194
+      },
+      {
+        "label": "VP",
+        "count": 138,
+        "paid": 10,
+        "unpaid": 128
+      }
+    ],
+    "meetupsByLocation": [
+      {
+        "location": "Miami",
+        "meetup_date": "2026-04-16",
+        "attendees": 299,
+        "attended": 285,
+        "no_shows": 14,
+        "expense_items": 1,
+        "spend": 0,
+        "food": 0,
+        "drinks": 0,
+        "page_views": 0
+      },
+      {
+        "location": "Dayton",
+        "meetup_date": "2026-06-17",
+        "attendees": 232,
+        "attended": 107,
+        "no_shows": 125,
+        "expense_items": 1,
+        "spend": 0,
+        "food": 0,
+        "drinks": 0,
+        "page_views": 796
+      },
+      {
+        "location": "Nashville",
+        "meetup_date": "2026-05-08",
+        "attendees": 227,
+        "attended": 193,
+        "no_shows": 34,
+        "expense_items": 1,
+        "spend": 0,
+        "food": 0,
+        "drinks": 0,
+        "page_views": 0
+      },
+      {
+        "location": "Columbus",
+        "meetup_date": "2026-09-23",
+        "attendees": 83,
+        "attended": 40,
+        "no_shows": 43,
+        "expense_items": 1,
+        "spend": 0,
+        "food": 0,
+        "drinks": 0,
+        "page_views": 573
+      },
+      {
+        "location": "Detroit",
+        "meetup_date": "2026-05-21",
+        "attendees": 69,
+        "attended": 64,
+        "no_shows": 5,
+        "expense_items": 1,
+        "spend": 0,
+        "food": 0,
+        "drinks": 0,
+        "page_views": 0
+      },
+      {
+        "location": "Cincinnati",
+        "meetup_date": "2026-10-21",
+        "attendees": 67,
+        "attended": 0,
+        "no_shows": 0,
+        "expense_items": 1,
+        "spend": 0,
+        "food": 0,
+        "drinks": 0,
+        "page_views": 194
+      },
+      {
+        "location": "Youngstown",
+        "meetup_date": "2026-10-22",
+        "attendees": 66,
+        "attended": 0,
+        "no_shows": 0,
+        "expense_items": 1,
+        "spend": 0,
+        "food": 0,
+        "drinks": 0,
+        "page_views": 1434
+      },
+      {
+        "location": "Lima",
+        "meetup_date": "2026-03-04",
+        "attendees": 40,
+        "attended": 40,
+        "no_shows": 0,
+        "expense_items": 1,
+        "spend": 1419.73,
+        "food": 0,
+        "drinks": 0,
+        "page_views": 1430
+      },
+      {
+        "location": "Cleveland",
+        "meetup_date": "2026-11-04",
+        "attendees": 33,
+        "attended": 0,
+        "no_shows": 0,
+        "expense_items": 1,
+        "spend": 0,
+        "food": 0,
+        "drinks": 0,
+        "page_views": 171
+      },
+      {
+        "location": "Austin",
+        "meetup_date": "2026-03-13",
+        "attendees": 30,
+        "attended": 30,
+        "no_shows": 0,
+        "expense_items": 1,
+        "spend": 0,
+        "food": 0,
+        "drinks": 0,
+        "page_views": 231
+      },
+      {
+        "location": "Springfield",
+        "meetup_date": "2026-04-08",
+        "attendees": 13,
+        "attended": 13,
+        "no_shows": 0,
+        "expense_items": 1,
+        "spend": 0,
+        "food": 0,
+        "drinks": 0,
+        "page_views": 192
+      },
+      {
+        "location": "Toledo",
+        "meetup_date": "2026-09-10",
+        "attendees": 6,
+        "attended": 0,
+        "no_shows": 0,
+        "expense_items": 1,
+        "spend": 0,
+        "food": 0,
+        "drinks": 0,
+        "page_views": 463
+      },
+      {
+        "location": "Marietta",
+        "meetup_date": "2026-03-25",
+        "attendees": 5,
+        "attended": 5,
+        "no_shows": 0,
+        "expense_items": 1,
+        "spend": 0,
+        "food": 0,
+        "drinks": 0,
+        "page_views": 1538
+      },
+      {
+        "location": "Akron",
+        "meetup_date": "2026-11-18",
+        "attendees": 4,
+        "attended": 0,
+        "no_shows": 0,
+        "expense_items": 1,
+        "spend": 0,
+        "food": 0,
+        "drinks": 0,
+        "page_views": 55
+      }
+    ],
+    "bootcampByCity": [
+      {
+        "city": "Marietta",
+        "start_date": "2026-03-23",
+        "end_date": "2026-03-25",
+        "interest_count": 9,
+        "application_count": 21,
+        "attendee_count": 10
+      },
+      {
+        "city": "Youngstown",
+        "start_date": "2026-04-21",
+        "end_date": "2026-04-23",
+        "interest_count": 15,
+        "application_count": 43,
+        "attendee_count": 10
+      },
+      {
+        "city": "Columbus",
+        "start_date": "2026-05-18",
+        "end_date": "2026-05-20",
+        "interest_count": 72,
+        "application_count": 19,
+        "attendee_count": 12
+      },
+      {
+        "city": "Dayton",
+        "start_date": "2026-06-15",
+        "end_date": "2026-06-17",
+        "interest_count": 53,
+        "application_count": 20,
+        "attendee_count": 14
+      },
+      {
+        "city": "Cleveland",
+        "start_date": "2026-08-17",
+        "end_date": "2026-08-19",
+        "interest_count": 56,
+        "application_count": 13,
+        "attendee_count": 0
+      },
+      {
+        "city": "Toledo",
+        "start_date": "2026-09-08",
+        "end_date": "2026-09-10",
+        "interest_count": 33,
+        "application_count": 20,
+        "attendee_count": 0
+      },
+      {
+        "city": "Cincinnati",
+        "start_date": "2026-10-19",
+        "end_date": "2026-10-21",
+        "interest_count": 73,
+        "application_count": 100,
+        "attendee_count": 0
+      },
+      {
+        "city": "Akron",
+        "start_date": "2026-11-16",
+        "end_date": "2026-11-18",
+        "interest_count": 47,
+        "application_count": 6,
+        "attendee_count": 0
+      }
+    ],
+    "sessionTopicAverages": [
+      {
+        "label": "Founder & Business Growth",
+        "session_count": 3,
+        "average_attendance": 290.7,
+        "total_attendance": 872,
+        "title_level_mix": [
+          {
+            "label": "Founder",
+            "count": 297
+          },
+          {
+            "label": "Entry Level",
+            "count": 205
+          },
+          {
+            "label": "Manager",
+            "count": 174
+          },
+          {
+            "label": "Student",
+            "count": 97
+          },
+          {
+            "label": "Director Level",
+            "count": 47
+          },
+          {
+            "label": "C-Suite",
+            "count": 24
+          },
+          {
+            "label": "Unknown",
+            "count": 20
+          },
+          {
+            "label": "VP",
+            "count": 8
+          }
+        ],
+        "sessions": [
+          {
+            "id": 3167670,
+            "title": "The Long Game: Building Brands that Last with Damola Adamolekun + Candice Matthews Brackeen",
+            "hall": "Procter & Gamble Hall, Aronoff Center",
+            "day_label": "Thursday",
+            "start_time": "2026-07-16 13:00:00",
+            "attendance": 796
+          },
+          {
+            "id": 3169753,
+            "title": "Built Different: Founders Redefining What Growth in Ohio Looks Like",
+            "hall": "Jarson Kaplan Theater",
+            "day_label": "Wednesday",
+            "start_time": "2026-07-15 10:00:00",
+            "attendance": 75
+          },
+          {
+            "id": 3169751,
+            "title": "Who Builds the Future? Fintech, Founders & the Cities That Win",
+            "hall": "Procter & Gamble Hall, Aronoff Center",
+            "day_label": "Tuesday",
+            "start_time": "2026-07-14 15:00:00",
+            "attendance": 1
+          }
+        ]
+      },
+      {
+        "label": "Career & Talent",
+        "session_count": 1,
+        "average_attendance": 209,
+        "total_attendance": 209,
+        "title_level_mix": [
+          {
+            "label": "Founder",
+            "count": 86
+          },
+          {
+            "label": "Entry Level",
+            "count": 39
+          },
+          {
+            "label": "Manager",
+            "count": 36
+          },
+          {
+            "label": "Director Level",
+            "count": 16
+          },
+          {
+            "label": "Student",
+            "count": 15
+          },
+          {
+            "label": "C-Suite",
+            "count": 8
+          },
+          {
+            "label": "VP",
+            "count": 6
+          },
+          {
+            "label": "Unknown",
+            "count": 3
+          }
+        ],
+        "sessions": [
+          {
+            "id": 3169754,
+            "title": "JobsOhio Presents: Why Ohio, Why Now?",
+            "hall": "Procter & Gamble Hall, Aronoff Center",
+            "day_label": "Thursday",
+            "start_time": "2026-07-16 11:00:00",
+            "attendance": 209
+          }
+        ]
+      },
+      {
+        "label": "Technology & Engineering",
+        "session_count": 2,
+        "average_attendance": 178.5,
+        "total_attendance": 357,
+        "title_level_mix": [
+          {
+            "label": "Founder",
+            "count": 128
+          },
+          {
+            "label": "Entry Level",
+            "count": 87
+          },
+          {
+            "label": "Manager",
+            "count": 58
+          },
+          {
+            "label": "Student",
+            "count": 48
+          },
+          {
+            "label": "Director Level",
+            "count": 19
+          },
+          {
+            "label": "C-Suite",
+            "count": 12
+          },
+          {
+            "label": "VP",
+            "count": 4
+          },
+          {
+            "label": "Unknown",
+            "count": 1
+          }
+        ],
+        "sessions": [
+          {
+            "id": 3167637,
+            "title": "High Tech, Low Tech: Building What's Next",
+            "hall": "Procter & Gamble Hall, Aronoff Center",
+            "day_label": "Tuesday",
+            "start_time": "2026-07-14 13:00:00",
+            "attendance": 260
+          },
+          {
+            "id": 3167673,
+            "title": "Building the Wave: How We Build BTW",
+            "hall": "Procter & Gamble Hall, Aronoff Center",
+            "day_label": "Thursday",
+            "start_time": "2026-07-16 15:00:00",
+            "attendance": 97
+          }
+        ]
+      },
+      {
+        "label": "Product & Design",
+        "session_count": 2,
+        "average_attendance": 176,
+        "total_attendance": 352,
+        "title_level_mix": [
+          {
+            "label": "Founder",
+            "count": 135
+          },
+          {
+            "label": "Entry Level",
+            "count": 82
+          },
+          {
+            "label": "Manager",
+            "count": 62
+          },
+          {
+            "label": "Student",
+            "count": 34
+          },
+          {
+            "label": "Director Level",
+            "count": 25
+          },
+          {
+            "label": "C-Suite",
+            "count": 11
+          },
+          {
+            "label": "VP",
+            "count": 2
+          },
+          {
+            "label": "Unknown",
+            "count": 1
+          }
+        ],
+        "sessions": [
+          {
+            "id": 3167671,
+            "title": "Building Platforms People Actually LOVE",
+            "hall": "Procter & Gamble Hall, Aronoff Center",
+            "day_label": "Thursday",
+            "start_time": "2026-07-16 14:00:00",
+            "attendance": 216
+          },
+          {
+            "id": 3177194,
+            "title": "Designing the Impossible: The Power of Creativity and Play",
+            "hall": "Jarson Kaplan Theater",
+            "day_label": "Wednesday",
+            "start_time": "2026-07-15 14:00:00",
+            "attendance": 136
+          }
+        ]
+      },
+      {
+        "label": "General Programming",
+        "session_count": 3,
+        "average_attendance": 163,
+        "total_attendance": 489,
+        "title_level_mix": [
+          {
+            "label": "Founder",
+            "count": 150
+          },
+          {
+            "label": "Manager",
+            "count": 108
+          },
+          {
+            "label": "Entry Level",
+            "count": 103
+          },
+          {
+            "label": "Student",
+            "count": 67
+          },
+          {
+            "label": "Director Level",
+            "count": 37
+          },
+          {
+            "label": "Unknown",
+            "count": 10
+          },
+          {
+            "label": "C-Suite",
+            "count": 8
+          },
+          {
+            "label": "VP",
+            "count": 6
+          }
+        ],
+        "sessions": [
+          {
+            "id": 3167636,
+            "title": "You're Not Overlooked, You're Mispositioned",
+            "hall": "Jarson Kaplan Theater",
+            "day_label": "Thursday",
+            "start_time": "2026-07-16 15:00:00",
+            "attendance": 238
+          },
+          {
+            "id": 3167650,
+            "title": "Using Your Influence for Good",
+            "hall": "Procter & Gamble Hall, Aronoff Center",
+            "day_label": "Wednesday",
+            "start_time": "2026-07-15 10:00:00",
+            "attendance": 154
+          },
+          {
+            "id": 3167633,
+            "title": "Human After All: Creativity in an Algorithmic World",
+            "hall": "Procter & Gamble Hall, Aronoff Center",
+            "day_label": "Tuesday",
+            "start_time": "2026-07-14 10:00:00",
+            "attendance": 97
+          }
+        ]
+      },
+      {
+        "label": "AI, Data & Automation",
+        "session_count": 4,
+        "average_attendance": 141.5,
+        "total_attendance": 566,
+        "title_level_mix": [
+          {
+            "label": "Founder",
+            "count": 177
+          },
+          {
+            "label": "Entry Level",
+            "count": 125
+          },
+          {
+            "label": "Manager",
+            "count": 120
+          },
+          {
+            "label": "Student",
+            "count": 83
+          },
+          {
+            "label": "Director Level",
+            "count": 27
+          },
+          {
+            "label": "C-Suite",
+            "count": 19
+          },
+          {
+            "label": "Unknown",
+            "count": 12
+          },
+          {
+            "label": "VP",
+            "count": 3
+          }
+        ],
+        "sessions": [
+          {
+            "id": 3167632,
+            "title": "Understanding AI - Prototypes, Automations & More",
+            "hall": "Jarson Kaplan Theater",
+            "day_label": "Tuesday",
+            "start_time": "2026-07-14 11:00:00",
+            "attendance": 187
+          },
+          {
+            "id": 3167651,
+            "title": "Beyond the Prompt",
+            "hall": "Jarson Kaplan Theater",
+            "day_label": "Wednesday",
+            "start_time": "2026-07-15 11:00:00",
+            "attendance": 179
+          },
+          {
+            "id": 3169756,
+            "title": "Science Meets Society: IP in the Age of AI",
+            "hall": "Jarson Kaplan Theater",
+            "day_label": "Thursday",
+            "start_time": "2026-07-16 11:00:00",
+            "attendance": 112
+          },
+          {
+            "id": 3176554,
+            "title": "Ask Better, Build Better: UX Research and AI for Product-Market Fit",
+            "hall": "Jarson Kaplan Theater",
+            "day_label": "Thursday",
+            "start_time": "2026-07-16 14:00:00",
+            "attendance": 88
+          }
+        ]
+      },
+      {
+        "label": "Leadership & Culture",
+        "session_count": 2,
+        "average_attendance": 138.5,
+        "total_attendance": 277,
+        "title_level_mix": [
+          {
+            "label": "Founder",
+            "count": 104
+          },
+          {
+            "label": "Manager",
+            "count": 55
+          },
+          {
+            "label": "Entry Level",
+            "count": 53
+          },
+          {
+            "label": "Student",
+            "count": 34
+          },
+          {
+            "label": "C-Suite",
+            "count": 14
+          },
+          {
+            "label": "Director Level",
+            "count": 12
+          },
+          {
+            "label": "VP",
+            "count": 4
+          },
+          {
+            "label": "Unknown",
+            "count": 1
+          }
+        ],
+        "sessions": [
+          {
+            "id": 3167639,
+            "title": "Legacy and Leadership",
+            "hall": "Procter & Gamble Hall, Aronoff Center",
+            "day_label": "Tuesday",
+            "start_time": "2026-07-14 14:00:00",
+            "attendance": 143
+          },
+          {
+            "id": 3167638,
+            "title": "The Architecture of Influence: A Masterclass on Building Trust Across Cultures",
+            "hall": "Jarson Kaplan Theater",
+            "day_label": "Tuesday",
+            "start_time": "2026-07-14 14:00:00",
+            "attendance": 134
+          }
+        ]
+      },
+      {
+        "label": "Brand, Media & Marketing",
+        "session_count": 2,
+        "average_attendance": 100,
+        "total_attendance": 200,
+        "title_level_mix": [
+          {
+            "label": "Founder",
+            "count": 74
+          },
+          {
+            "label": "Entry Level",
+            "count": 33
+          },
+          {
+            "label": "Manager",
+            "count": 33
+          },
+          {
+            "label": "Student",
+            "count": 25
+          },
+          {
+            "label": "Unknown",
+            "count": 20
+          },
+          {
+            "label": "Director Level",
+            "count": 10
+          },
+          {
+            "label": "VP",
+            "count": 3
+          },
+          {
+            "label": "C-Suite",
+            "count": 2
+          }
+        ],
+        "sessions": [
+          {
+            "id": 3167667,
+            "title": "Personal Branding",
+            "hall": "Procter & Gamble Hall, Aronoff Center",
+            "day_label": "Thursday",
+            "start_time": "2026-07-16 10:00:00",
+            "attendance": 115
+          },
+          {
+            "id": 3167655,
+            "title": "IP, Ownership, and the Global Creator Economy",
+            "hall": "Procter & Gamble Hall, Aronoff Center",
+            "day_label": "Wednesday",
+            "start_time": "2026-07-15 13:00:00",
+            "attendance": 85
+          }
+        ]
+      },
+      {
+        "label": "Capital & Funding",
+        "session_count": 1,
+        "average_attendance": 97,
+        "total_attendance": 97,
+        "title_level_mix": [
+          {
+            "label": "Founder",
+            "count": 38
+          },
+          {
+            "label": "Entry Level",
+            "count": 21
+          },
+          {
+            "label": "Manager",
+            "count": 14
+          },
+          {
+            "label": "Student",
+            "count": 10
+          },
+          {
+            "label": "C-Suite",
+            "count": 5
+          },
+          {
+            "label": "Director Level",
+            "count": 5
+          },
+          {
+            "label": "VP",
+            "count": 3
+          },
+          {
+            "label": "Unknown",
+            "count": 1
+          }
+        ],
+        "sessions": [
+          {
+            "id": 3167658,
+            "title": "What My Last Deal Taught Me",
+            "hall": "Procter & Gamble Hall, Aronoff Center",
+            "day_label": "Wednesday",
+            "start_time": "2026-07-15 15:00:00",
+            "attendance": 97
+          }
+        ]
+      }
+    ]
+  }
+}

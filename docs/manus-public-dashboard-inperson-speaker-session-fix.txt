@@ -1,0 +1,45 @@
+Please revise the existing Black Tech Week 2026 public dashboard website again.
+
+Task: evfskDSouyAWq4KnfnV8rX
+Website: kQ75EaDuphQeYzBqrL3BH7
+Current public URL: https://blackdash-kq75eadu.manus.space
+
+Keep using aggregate-only data. Do not add personal identifiers, row-level records, names, phone numbers, emails, or individual stories.
+
+Requested content fixes:
+
+1. Update the "In-Person Attendees" number.
+   - Current page shows In-Person Attendees as 2,767.
+   - Replace this with 5,249.
+   - This should represent total in-room/in-person reach across:
+     - Black Tech Week actual badge-printed attendees: 2,767
+     - Community event attendees: 1,705
+     - Meetup attendees: 777
+   - Do not explain that formula in the main UI. Keep the caption direct.
+   - Suggested label: "In-Person Attendees"
+   - Suggested caption: "people gathered across the flagship week, community events, and meetups"
+
+2. Keep Total Footprint as 7,953.
+   - This remains the top-line footprint number.
+   - The hero should still feel simple and sponsor-facing.
+
+3. Fix session count wording.
+   - The page currently uses 124 sessions in a sponsor-facing section.
+   - The dashboard data has:
+     - Total sessions: 124
+     - Main agenda sessions: 79
+     - Community sessions: 45
+     - Speaker sessions: 21
+   - When the context is speakers/programming value for sponsors, use "Speaker Sessions" = 21.
+   - Avoid showing 124 as a headline sponsor stat unless it is clearly labeled "agenda + community sessions" and it is not confusing.
+   - Preferred sponsor-facing metric: "21 Speaker Sessions"
+   - Suggested caption: "stage moments built for founder insight and executive connection"
+
+4. Keep previous simplification rules.
+   - No paid/unpaid details.
+   - No calculation-heavy text.
+   - No repeated first-scroll KPI section.
+   - Captions should explain impact, not methodology.
+   - Keep only minimal caveats for modeled economic impact in the footer or economic section.
+
+After revising, checkpoint the website and tell me the new checkpoint/version id. Do not publish; I will publish through the Manus API.

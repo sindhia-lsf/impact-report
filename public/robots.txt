@@ -1,0 +1,4 @@
+User-Agent: *
+Allow: /
+Disallow: /api/*
+Sitemap: https://blackdash-kq75eadu.manus.space/sitemap.xml

@@ -1,0 +1,409 @@
+{
+  "headlines": [
+    "Black Tech Week 2026 reached an estimated 7,953 people across verified onsite attendance, community partner events, meetup attendance, and YouTube unique viewers.",
+    "The broader demand signal was 11,995: BTW registrations, meetup RSVPs, and YouTube unique viewers.",
+    "The registered audience represented 35 states and 726 ZIP codes, with top non-local markets including Dayton, OH, Columbus, OH, Hamilton, OH, West Chester, OH, Fairfield, OH, Louisville, KY.",
+    "Founder and business density was a core strength: 2,407 founders, 816 executives, and 5,273 unique organizations appeared in the aggregate dataset.",
+    "The modeled actual-attendee economic impact is $11.5M, including $4.6M in visitor spending and 2,411 modeled room nights.",
+    "Virtual distribution added 2,704 unique viewers, 6,708 views, 2,509.1 watch hours, and 211 subscribers gained.",
+    "1,513 BTW registrations, or 18.5%, came from distressed ZIP-code areas; Bootcamp attendees showed 28.3% distressed-area representation."
+  ],
+  "executive_summary": "Black Tech Week 2026 created a multi-channel impact footprint that combined a flagship in-person convening, virtual distribution, year-round meetup engagement, founder pipeline development, and community partner activity. Using aggregate dashboard data, the event reached an estimated 7,953 people across actual in-person badge-printed attendees, community partner events, confirmed meetup attendance, and YouTube unique viewers. The broader demand signal was 11,995 when active Black Tech Week registrations, meetup RSVPs, and YouTube unique viewers are combined. The audience was geographically distributed across 35 states and 726 ZIP codes, demonstrating that the Cincinnati-based program reaches well beyond the host city while still building dense local and regional engagement.\n\nFor sponsors and civic partners, the strongest story is the combination of economic activity and founder concentration. The actual-attendee economic impact model estimates $11.5M in total impact, including $4.6M in visitor spending, $603K in lodging revenue, and 2,411 room nights. The registered-onsite scenario shows the upper demand-based opportunity at $20.0M. These figures should be presented as modeled estimates using stated assumptions, not audited financial results.\n\nBlack Tech Week also attracted the audience sponsors care about: 2,407 founders, 816 executives, 5,273 unique organizations, 124 sessions, and 52 speakers. Programming depth was visible in session engagement, with 1,537 unique scanned session attendees, 3,419 total session scans, and 56.2% of engaged attendees scanning into two or more sessions. The inclusion story is similarly strong: 1,513 registrations came from distressed ZIP-code areas, and the aggregate demographic data shows a predominantly Black audience with majority women representation among disclosed responses.",
+  "sections": [
+    [
+      "Purpose and Audience",
+      [
+        "Position Black Tech Week 2026 as a sponsor-ready platform for founder access, inclusive economic development, and regional visibility.",
+        "Use modeled economic impact carefully and distinguish verified attendance, registrations, digital reach, and demand signals."
+      ]
+    ],
+    [
+      "Total Footprint Reached",
+      [
+        "Verified and modeled impact footprint: 7,953.",
+        "Demand and digital signal: 11,995.",
+        "Channels: 2,767 actual in-person badge prints, 1,705 community partner event attendees, 777 confirmed meetup attendees, and 2,704 YouTube unique viewers."
+      ]
+    ],
+    [
+      "Geographic Reach",
+      [
+        "Audience origin spans 35 states and 726 ZIP codes.",
+        "Mapped visitor mix: 3,776 local, 1,615 regional, 500 overnight, and 849 out-of-state visitors.",
+        "Top states by registration volume: OH (5,656), KY (324), GA (225), TX (187), MI (161)."
+      ]
+    ],
+    [
+      "Economic Impact",
+      [
+        "Actual attendee scenario: $11.5M total modeled impact, $7.2M direct impact, and $4.3M indirect/induced impact.",
+        "Registered onsite scenario: $20.0M total modeled impact based on registered onsite mix.",
+        "Community partner nightlife/event impact adds $409K with multiplier assumptions."
+      ]
+    ],
+    [
+      "Founder and Business Empowerment",
+      [
+        "2,407 founders, 816 executives, and 5,273 unique organizations are visible in the registration dataset.",
+        "Session activity produced 3,419 scans across tracked programming, with 56.2% of engaged attendees attending two or more sessions.",
+        "The Bootcamp pipeline adds 364 interest records, 233 applications, and 46 attendees across 8 cities."
+      ]
+    ],
+    [
+      "Equity and Inclusion",
+      [
+        "1,513 registrations came from distressed ZIP-code areas (18.5%).",
+        "Bootcamp distressed-area representation: 28.3% of interest, 11.6% of applications, and 28.3% of attendees.",
+        "Race/ethnicity top disclosed aggregate: Black or African American at 5,937. Gender top disclosed aggregate: Woman at 4,191."
+      ]
+    ],
+    [
+      "Sponsor Pitch Implications",
+      [
+        "Lead with founder density, national distribution, and measurable programming depth.",
+        "Use the economic model to show why the host region benefits from sponsor investment.",
+        "Offer sponsors category-specific ways to activate: founder services, hiring, capital access, civic innovation, hospitality, and content distribution."
+      ]
+    ],
+    [
+      "Data Notes",
+      [
+        "All figures are aggregate-only and generated from local dashboard APIs, Postgres aggregate queries, and command-center virtual performance snapshots.",
+        "Economic impact figures are modeled estimates based on local assumptions; they are suitable for sponsor/executive pitch materials but should be labeled accordingly.",
+        "No personal identifiers are included in this report package."
+      ]
+    ]
+  ],
+  "slides": [
+    [
+      "Black Tech Week 2026 Impact",
+      "Sponsor Outreach + Executive Pitch Report",
+      [
+        "7,953 estimated gross footprint",
+        "35 states | 726 ZIP codes",
+        "$11.5M modeled actual-attendee economic impact"
+      ]
+    ],
+    [
+      "Impact At A Glance",
+      "A cross-channel platform, not a single event",
+      [
+        "2,767 actual in-person badge prints",
+        "1,705 community partner event attendees",
+        "777 confirmed meetup attendees",
+        "2,704 YouTube unique viewers"
+      ]
+    ],
+    [
+      "National + Regional Footprint",
+      "Reach radiates from Cincinnati into national markets",
+      [
+        "35 states represented",
+        "726 ZIP codes represented",
+        "849 out-of-state visitors",
+        "Top markets: Dayton, OH, Columbus, OH, Hamilton, OH, West Chester, OH, Fairfield, OH, Louisville, KY"
+      ]
+    ],
+    [
+      "Economic Impact",
+      "Modeled value for the host city and region",
+      [
+        "$11.5M actual-attendee modeled impact",
+        "$4.6M visitor spending",
+        "2,411 modeled room nights",
+        "$20.0M registered-onsite demand scenario"
+      ]
+    ],
+    [
+      "Founder + Business Density",
+      "Sponsors get access to the audience they want",
+      [
+        "2,407 founders",
+        "816 executives",
+        "5,273 unique organizations",
+        "52 speakers across 124 sessions"
+      ]
+    ],
+    [
+      "Programming Depth",
+      "Engagement extended beyond attendance",
+      [
+        "1,537 unique scanned session attendees",
+        "3,419 total session scans",
+        "56.2% attended two or more sessions",
+        "2.2 avg sessions per engaged attendee"
+      ]
+    ],
+    [
+      "Inclusive Reach",
+      "Aggregate demographics and distressed-area participation",
+      [
+        "1,513 distressed-ZIP registrations",
+        "18.5% of BTW registrations",
+        "28.3% of Bootcamp attendees from distressed areas",
+        "5,937 Black or African American aggregate responses"
+      ]
+    ],
+    [
+      "Virtual Distribution",
+      "YouTube Live extended BTW beyond the venue",
+      [
+        "6,708 views",
+        "2,704 unique viewers",
+        "2,509.1 watch hours",
+        "211 subscribers gained"
+      ]
+    ],
+    [
+      "Sponsor Storyline",
+      "Why this matters",
+      [
+        "Black Tech Week concentrates founders, operators, executives, and community audiences in one measurable platform.",
+        "The host region benefits through visitor spend, lodging, local mobility, nightlife, and partner activity.",
+        "Sponsors can align with capital access, talent, founder services, civic innovation, and national content distribution."
+      ]
+    ]
+  ],
+  "actual": {
+    "scenario_key": "actual_badged",
+    "label": "Actual Attendee onsite mix",
+    "attendees": 2767,
+    "visitor_spending": 4581461.82,
+    "organizer_local_spending": 2195000,
+    "labor_cost": 400000,
+    "direct_impact": 7176461.82,
+    "indirect_induced_impact": 4305877.09,
+    "total_impact": 11482338.91,
+    "impact_per_attendee": 4149.74,
+    "public_investment_roi": 5.79,
+    "room_nights": 2410.73,
+    "lodging_revenue": 602681.82,
+    "lodging_tax": 69308.41,
+    "benchmark_state_local_tax": 549775.42,
+    "category_breakdown": [
+      {
+        "label": "Accommodations",
+        "amount": 602681.82
+      },
+      {
+        "label": "Food + nightlife",
+        "amount": 2905350
+      },
+      {
+        "label": "Travel + parking",
+        "amount": 520030
+      },
+      {
+        "label": "Retail",
+        "amount": 553400
+      },
+      {
+        "label": "Organizer spend",
+        "amount": 2195000
+      },
+      {
+        "label": "Labor spend",
+        "amount": 400000
+      },
+      {
+        "label": "Indirect + induced",
+        "amount": 4305877.09
+      }
+    ],
+    "mix": [
+      {
+        "visitorType": "Local",
+        "attendees": 1697,
+        "spendPerAttendee": 1415.909090909091,
+        "visitorSpending": 2402797.73,
+        "categoryBreakdown": [
+          {
+            "label": "Accommodations",
+            "amount": 154272.73
+          },
+          {
+            "label": "Food + nightlife",
+            "amount": 1781850
+          },
+          {
+            "label": "Travel + parking",
+            "amount": 127275
+          },
+          {
+            "label": "Retail",
+            "amount": 339400
+          }
+        ]
+      },
+      {
+        "visitorType": "Regional drive-in",
+        "attendees": 769,
+        "spendPerAttendee": 1702.2727272727273,
+        "visitorSpending": 1309047.73,
+        "categoryBreakdown": [
+          {
+            "label": "Accommodations",
+            "amount": 174772.73
+          },
+          {
+            "label": "Food + nightlife",
+            "amount": 807450
+          },
+          {
+            "label": "Travel + parking",
+            "amount": 173025
+          },
+          {
+            "label": "Retail",
+            "amount": 153800
+          }
+        ]
+      },
+      {
+        "visitorType": "Overnight visitor",
+        "attendees": 301,
+        "spendPerAttendee": 2889.090909090909,
+        "visitorSpending": 869616.36,
+        "categoryBreakdown": [
+          {
+            "label": "Accommodations",
+            "amount": 273636.36
+          },
+          {
+            "label": "Food + nightlife",
+            "amount": 316050
+          },
+          {
+            "label": "Travel + parking",
+            "amount": 219730
+          },
+          {
+            "label": "Retail",
+            "amount": 60200
+          }
+        ]
+      }
+    ]
+  },
+  "registered": {
+    "scenario_key": "registered_offline",
+    "label": "Registered onsite mix",
+    "attendees": 6024,
+    "visitor_spending": 9924437.73,
+    "organizer_local_spending": 2195000,
+    "labor_cost": 400000,
+    "direct_impact": 12519437.73,
+    "indirect_induced_impact": 7511662.64,
+    "total_impact": 20031100.36,
+    "impact_per_attendee": 3325.22,
+    "public_investment_roi": 10.11,
+    "room_nights": 5143.09,
+    "lodging_revenue": 1285772.73,
+    "lodging_tax": 147863.86,
+    "benchmark_state_local_tax": 1190932.53,
+    "category_breakdown": [
+      {
+        "label": "Accommodations",
+        "amount": 1285772.73
+      },
+      {
+        "label": "Food + nightlife",
+        "amount": 6325200
+      },
+      {
+        "label": "Travel + parking",
+        "amount": 1108665
+      },
+      {
+        "label": "Retail",
+        "amount": 1204800
+      },
+      {
+        "label": "Organizer spend",
+        "amount": 2195000
+      },
+      {
+        "label": "Labor spend",
+        "amount": 400000
+      },
+      {
+        "label": "Indirect + induced",
+        "amount": 7511662.64
+      }
+    ],
+    "mix": [
+      {
+        "visitorType": "Local",
+        "attendees": 3776,
+        "spendPerAttendee": 1415.909090909091,
+        "visitorSpending": 5346472.73,
+        "categoryBreakdown": [
+          {
+            "label": "Accommodations",
+            "amount": 343272.73
+          },
+          {
+            "label": "Food + nightlife",
+            "amount": 3964800
+          },
+          {
+            "label": "Travel + parking",
+            "amount": 283200
+          },
+          {
+            "label": "Retail",
+            "amount": 755200
+          }
+        ]
+      },
+      {
+        "visitorType": "Regional drive-in",
+        "attendees": 1615,
+        "spendPerAttendee": 1702.2727272727273,
+        "visitorSpending": 2749170.45,
+        "categoryBreakdown": [
+          {
+            "label": "Accommodations",
+            "amount": 367045.45
+          },
+          {
+            "label": "Food + nightlife",
+            "amount": 1695750
+          },
+          {
+            "label": "Travel + parking",
+            "amount": 363375
+          },
+          {
+            "label": "Retail",
+            "amount": 323000
+          }
+        ]
+      },
+      {
+        "visitorType": "Overnight visitor",
+        "attendees": 633,
+        "spendPerAttendee": 2889.090909090909,
+        "visitorSpending": 1828794.55,
+        "categoryBreakdown": [
+          {
+            "label": "Accommodations",
+            "amount": 575454.55
+          },
+          {
+            "label": "Food + nightlife",
+            "amount": 664650
+          },
+          {
+            "label": "Travel + parking",
+            "amount": 462090
+          },
+          {
+            "label": "Retail",
+            "amount": 126600
+          }
+        ]
+      }
+    ]
+  }
+}

@@ -1,0 +1,46 @@
+Please revise the existing Black Tech Week 2026 public dashboard website you built for task evfskDSouyAWq4KnfnV8rX / website kQ75EaDuphQeYzBqrL3BH7.
+
+Keep the same aggregate-only data and do not add personal identifiers, row-level attendee records, names, phone numbers, emails, or individual stories.
+
+Direction: make the page more sponsor-facing, simpler, and more visually striking. The current version has too much explanation about how numbers are broken down and added. Sponsors do not need the calculation details in the main story. They need to see the most impressive totals and understand the impact quickly.
+
+Changes required:
+
+1. Lead with direct totals and simple impact language.
+   - Show one big "Total Footprint" number.
+   - Treat it as BTW in-person attendees + virtual viewers + meetup attendees/community reach as an overall impact footprint.
+   - Do not explain the formula in the hero or primary sections.
+   - Use short captions that say what the number means for impact.
+
+2. Remove detailed calculation explanations from the main content.
+   - Avoid "we added X + Y + Z" language.
+   - Avoid long methodology paragraphs in the visible main sections.
+   - If needed, keep only a very small footer note: "Figures are aggregate dashboard metrics and modeled estimates where labeled."
+
+3. Remove paid/unpaid detail entirely.
+   - Do not show paid vs unpaid charts, captions, labels, or metrics.
+   - Focus on attendees, viewers, founders, organizations, reach, geography, economic impact, and inclusion.
+
+4. Keep numbers easy to understand.
+   - Prefer big KPI cards, short labels, simple chart titles, and simple callouts.
+   - Avoid exposing internal categories that require explanation.
+   - Use rounded headline numbers where it makes the story clearer, while keeping exact supporting numbers where already shown.
+
+5. Rewrite captions/text so they directly interpret impact.
+   - Good: "Black Tech Week brought national founder energy into Cincinnati."
+   - Good: "A high-density audience of founders, executives, and organizations."
+   - Good: "Digital programming extended the reach far beyond the venue."
+   - Avoid: "This number is calculated by combining..." or "These categories are not mutually exclusive..."
+
+6. Visual tone:
+   - More attractive, more premium, more sponsor-pitch-ready.
+   - Keep the strong visual style, but make the page scan faster.
+   - Fewer dense blocks; more executive-ready highlight sections.
+   - Make the hero and top numbers especially strong.
+
+Keep clear caveats only where legally/ethically needed:
+   - Economic impact should still be labeled "modeled".
+   - Do not claim audited results.
+   - Do not claim all-channel deduplication in small print. But do not over-explain this in the main flow.
+
+After revising, checkpoint the website and tell me what changed. Do not publish; I will publish the latest checkpoint through the API.

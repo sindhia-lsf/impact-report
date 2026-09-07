@@ -18,6 +18,10 @@ function render(data) {
   const inPerson = reach.btwActualInPersonBadgePrinted + reach.communityPartnerEventAttendees + reach.meetupActualAttended;
 
   $('footprint').textContent = number(reach.estimatedGrossFootprint);
+  $('heroInPerson').textContent = number(inPerson);
+  $('heroFounders').textContent = number(people.founders);
+  $('heroZips').textContent = number(geo.zipCodesRepresented);
+  $('heroImpactHighlight').textContent = money(actual.total_impact);
   $('heroStates').textContent = number(geo.statesRepresented);
   $('heroOrgs').textContent = number(people.uniqueOrganizations);
   $('heroImpact').textContent = money(actual.total_impact);
@@ -71,4 +75,3 @@ loadReport().then(render).catch((error) => {
   console.error(error);
   document.querySelector('main').innerHTML = '<div class="wrap"><p class="kicker">Report unavailable</p><h1>Unable to load aggregate report data.</h1></div>';
 });
-

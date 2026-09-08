@@ -26,3 +26,7 @@ Update aggregate values in `../source-data/impact-summary.json` and refresh the 
 
 Do not add personal identifiers, row-level exports, names, emails, phone numbers, private notes, or credentials. Economic impact is labeled as modeled and is not presented as audited results. Bootcamp and paid/unpaid details are intentionally excluded from the sponsor-facing UI.
 
+
+## Manus design snapshot
+
+The current Manus-edited blackdash design, including the updated **12,000+** footprint value and its current text/content, is preserved under `dashboard/public/manus-import/`. Run the local server and open `/manus-import/index.html` to view that snapshot. The existing repo-native dashboard source remains at the dashboard root and is not deleted.
